@@ -1,21 +1,6 @@
 ---
 name: expense-analyst
-description: Use this agent when you need to analyze spending patterns, identify trends, find savings opportunities, or investigate budget variances. This agent performs deep-dive analysis of transaction data and spending behavior. Examples:\n\n<example>
-Context: User wants to understand where their money is going
-user: "I feel like I'm spending too much but I'm not sure where. Can you analyze my spending?"
-assistant: "I'll use the expense-analyst agent to perform a comprehensive analysis of your spending patterns and identify where your money is going."
-<Task tool launched with expense-analyst agent>
-</example>\n\n<example>
-Context: User exceeded budget and wants to know why
-user: "I went $300 over budget last month. What happened?"
-assistant: "Let me launch the expense-analyst agent to investigate your spending variances and identify what caused you to exceed your budget."
-<Task tool launched with expense-analyst agent>
-</example>\n\n<example>
-Context: User wants to find ways to save money
-user: "I need to cut $200 from my monthly spending. Where should I look?"
-assistant: "I'll use the expense-analyst agent to analyze your spending and identify opportunities to reduce expenses without impacting your quality of life significantly."
-<Task tool launched with expense-analyst agent>
-</example>\n\nProactively use this agent when users ask about spending patterns, budget overruns, or saving money.
+description: Use when the user wants to analyse spending patterns, identify trends, find savings opportunities, or investigate budget variances. Performs deep-dive analysis of transaction data and writes insights to outputs/analyses/.
 model: sonnet
 ---
 

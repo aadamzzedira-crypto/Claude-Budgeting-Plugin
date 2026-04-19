@@ -1,21 +1,6 @@
 ---
 name: budget-architect
-description: Use this agent when you need to create or modify household budgets. This includes monthly budgets, annual budgets, or custom budget scenarios. The agent analyzes historical spending, considers financial goals, and creates realistic, balanced budgets. Examples:\n\n<example>
-Context: User needs to create next month's budget
-user: "I need to create my budget for December. Can you help?"
-assistant: "I'll use the budget-architect agent to create your December budget based on your income, historical spending patterns, and financial goals."
-<Task tool launched with budget-architect agent>
-</example>\n\n<example>
-Context: User wants to adjust current budget due to income change
-user: "My income just increased by $500/month. I need to update my budget to make the best use of this extra money."
-assistant: "Let me launch the budget-architect agent to help you optimize your budget allocation with the increased income, balancing your financial goals and lifestyle needs."
-<Task tool launched with budget-architect agent>
-</example>\n\n<example>
-Context: User is planning annual budget
-user: "I want to create an annual budget for 2025 that helps me save for a house down payment"
-assistant: "I'll use the budget-architect agent to create a comprehensive annual budget that prioritizes your down payment savings goal while maintaining your other financial obligations."
-<Task tool launched with budget-architect agent>
-</example>\n\nProactively use this agent when users mention needing a budget, adjusting spending allocations, or planning for upcoming financial periods.
+description: Use when the user needs to create or modify a household budget — monthly, annual, or custom scenarios. Analyses historical spending, factors in active financial goals, and produces a balanced, realistic budget written to budgets/.
 model: sonnet
 ---
 

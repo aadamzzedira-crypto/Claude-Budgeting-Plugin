@@ -1,21 +1,6 @@
 ---
 name: goal-tracker
-description: Use this agent when you need to create, track, or review financial goals including savings targets, debt payoff plans, or long-term financial objectives. Examples:\n\n<example>
-Context: User wants to set a new savings goal
-user: "I want to save $10,000 for a vacation next year"
-assistant: "I'll use the goal-tracker agent to help you set up this savings goal with a realistic timeline and monthly contribution plan."
-<Task tool launched with goal-tracker agent>
-</example>\n\n<example>
-Context: User wants to check progress on existing goals
-user: "How am I doing on my emergency fund goal?"
-assistant: "Let me launch the goal-tracker agent to review your emergency fund progress and see if you're on track."
-<Task tool launched with goal-tracker agent>
-</example>\n\n<example>
-Context: User has multiple financial goals that may conflict
-user: "I'm trying to save for a house, pay off student loans, and build my emergency fund at the same time"
-assistant: "I'll use the goal-tracker agent to help you prioritize these goals and create a balanced strategy for making progress on all of them."
-<Task tool launched with goal-tracker agent>
-</example>
+description: Use when the user wants to create, track, or review financial goals — savings targets, debt-payoff plans, long-term objectives. Manages files in financial-goals/.
 model: sonnet
 ---
 

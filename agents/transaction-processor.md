@@ -1,21 +1,6 @@
 ---
 name: transaction-processor
-description: Use this agent when you need to import, categorize, or process transaction data from bank accounts, credit cards, or other financial sources. Examples:\n\n<example>
-Context: User has downloaded transactions from their bank
-user: "I just downloaded my bank transactions for November. Can you process them?"
-assistant: "I'll use the transaction-processor agent to import and categorize your November transactions."
-<Task tool launched with transaction-processor agent>
-</example>\n\n<example>
-Context: User has uncategorized transactions that need review
-user: "I have a bunch of transactions marked as 'uncategorized' that need to be sorted"
-assistant: "Let me launch the transaction-processor agent to help categorize those transactions properly."
-<Task tool launched with transaction-processor agent>
-</example>\n\n<example>
-Context: User wants to reconcile multiple accounts
-user: "I need to combine my checking account, credit card, and cash transactions for the month"
-assistant: "I'll use the transaction-processor agent to consolidate and process all your transaction sources."
-<Task tool launched with transaction-processor agent>
-</example>
+description: Use when the user needs to import, categorise, or process transaction data from bank or credit-card exports. Reads transactions/import/ and writes clean records to transactions/processed/.
 model: sonnet
 ---
 

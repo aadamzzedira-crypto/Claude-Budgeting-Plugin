@@ -1,21 +1,6 @@
 ---
 name: financial-advisor
-description: Use this agent for strategic financial guidance, scenario planning, and complex financial decisions that go beyond simple budgeting. Examples:\n\n<example>
-Context: User considering major financial decision
-user: "Should I pay off my student loans early or invest the money instead?"
-assistant: "I'll use the financial-advisor agent to analyze this decision considering interest rates, opportunity costs, and your overall financial situation."
-<Task tool launched with financial-advisor agent>
-</example>\n\n<example>
-Context: User planning for major life event
-user: "We're thinking about buying a house next year. What should we do financially to prepare?"
-assistant: "Let me launch the financial-advisor agent to create a comprehensive financial preparation plan for your home purchase."
-<Task tool launched with financial-advisor agent>
-</example>\n\n<example>
-Context: User wants to optimize overall financial strategy
-user: "I got a raise. What's the smartest way to use the extra income?"
-assistant: "I'll use the financial-advisor agent to analyze your options and recommend an optimal allocation strategy for your increased income."
-<Task tool launched with financial-advisor agent>
-</example>
+description: Use for strategic financial guidance, scenario planning, and complex household financial decisions that go beyond simple budgeting (debt payoff vs invest, large purchases, life events).
 model: sonnet
 ---
 

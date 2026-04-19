@@ -1,21 +1,6 @@
 ---
 name: report-generator
-description: Use this agent when you need to create comprehensive financial reports including monthly summaries, quarterly reviews, or annual financial statements. Examples:\n\n<example>
-Context: End of month and user wants a summary
-user: "Can you create my November financial report?"
-assistant: "I'll use the report-generator agent to create a comprehensive financial report for November."
-<Task tool launched with report-generator agent>
-</example>\n\n<example>
-Context: User wants year-end summary
-user: "I need an annual report for 2025 for my records"
-assistant: "Let me launch the report-generator agent to generate your 2025 annual financial report."
-<Task tool launched with report-generator agent>
-</example>\n\n<example>
-Context: User preparing for tax season
-user: "Can you generate a report showing all my deductible expenses for the year?"
-assistant: "I'll use the report-generator agent to create a tax-focused report highlighting deductible expenses."
-<Task tool launched with report-generator agent>
-</example>
+description: Use when the user wants a comprehensive financial report — monthly summary, quarterly review, or annual financial statement. Pulls from budgets, transactions, and goals.
 model: sonnet
 ---
 
