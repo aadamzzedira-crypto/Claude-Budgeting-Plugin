@@ -1,0 +1,12 @@
+{
+  "name": "budgeting",
+  "version": "1.0.0",
+  "description": "Personal budgeting workflow primitives — transaction logging, categorization, budget creation, spending analysis, goal tracking, and forecasting — plus a provisioning skill for a fresh budgeting workspace.",
+  "author": {
+    "name": "Daniel Rosehill",
+    "url": "https://github.com/danielrosehill"
+  },
+  "repository": "https://github.com/danielrosehill/budgeting-plugin",
+  "license": "MIT",
+  "keywords": ["budgeting", "finance", "transactions", "forecasting", "household"]
+}
