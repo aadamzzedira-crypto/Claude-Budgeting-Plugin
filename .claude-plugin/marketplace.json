@@ -1,0 +1,13 @@
+{
+  "name": "aadamzzedira-budgeting",
+  "owner": {
+    "name": "aadamzzedira-crypto"
+  },
+  "plugins": [
+    {
+      "name": "budgeting",
+      "source": "./",
+      "description": "Personal budgeting workflow primitives — transaction logging, categorization, budget creation, spending analysis, goal tracking, and forecasting."
+    }
+  ]
+}
